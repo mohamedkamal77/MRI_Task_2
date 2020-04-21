@@ -42,9 +42,11 @@ This GIFs is to simulate Bulk magnetization vector rotation.
 The K-space of this Image is calculated using the function **image_to_kspace()**,first we shift the image  by N/2 . This is simply done by the function, **np.fft.ifftshift()**.
 , then we get fourier for the result by **np.fft.fftn()**.the we aplly shift on fourrier  by N/2 using **np.fft.ifftshift()**.the result is k-space
 
-![Image](Images/brain_mri.jpg)
+image we will get it in k-space
 
-and this is FT of the Image. 
+![Image](Images/brain_mri.jpeg)
+
+and this is k-space  Image. 
 
 ![Image](Images/kspace_brain.png)
 
